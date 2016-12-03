@@ -20,7 +20,7 @@ const day = todaysDate.getDay();
 const year = todaysDate.getFullYear();
 todaysDate = `${month}/${day}/${year}`
 
-const REQUEST_URL = "http://localhost:3000/written_things"
+const REQUEST_URL = "https://onegoodthing-api.herokuapp.com/written_things"
 
 export default class OneGoodThing extends Component {
   constructor(props) {
